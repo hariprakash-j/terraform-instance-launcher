@@ -25,7 +25,7 @@ provider "aws" {
 module "ec2_instance" {
     source = "./modules/ec2"
     providers = {
-        aws.region = aws.us
+        aws.region = aws.mumbai
     }
 }
 module "ec2_instance2" {
